@@ -1,0 +1,424 @@
+ /*index*/
+body.index{
+    margin: 0;
+    background-image: url('imgsite/pag1.png');
+    background-size: cover;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.index P{
+    color: rgb(255, 255, 255);
+}
+.index H1{
+    color: rgb(0, 0, 0);
+}
+.index .topo{
+    background-color: rgb(255, 150, 232);
+    text-align: center;
+    padding: 40px;
+}
+.index .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 130px;
+    justify-content: center;
+}
+.index .card{
+    background-color: rgb(243, 193, 214);
+    width: 180px;
+    height: 280px;
+    border-radius: 12px;
+    box-shadow:4px 4px 12px #141414aa;  
+}
+.index .card img{
+    width: 100%;
+    height: 130px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+.index .card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 4px;
+    height: 50%;
+}
+.index .card h1{
+    font-size: 1.2rem;
+}
+.index .card h3{
+    font-size: .9rem;
+    color: #2c0202aa;
+}
+.index .card-botao{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+.index .card-botao a{
+   text-decoration: none;
+   color: rgb(255, 150, 232);
+    display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.473);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.index .rodape{
+    background-color: rgb(255, 150, 232);
+    text-align: center;
+    padding: 25px;
+}
+body.integrante{
+    margin: 0;
+    background-image: url('imgsite/pag3.png');
+    background-size: cover;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.integrante P{
+    color: rgb(255, 255, 255);
+}
+.integrante H1{
+    color: rgb(255, 255, 255);
+}
+.integrante .topo{
+    background-color: rgb(125, 180, 114);
+    text-align: center;
+    padding: 40px;
+}
+.integrante .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 130px;
+    justify-content: center;
+}
+.integrante .card{
+    background-color: rgb(255, 198, 255);
+    width: 180px;
+    height: 280px;
+    border-radius: 12px;
+    box-shadow:4px 4px 12px #141414aa;  
+}
+.integrante .card img{
+    width: 100%;
+    height: 130px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+.integrante .card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 4px;
+    height: 50%;
+}
+.integrante .card h1{
+    font-size: 1.2rem;
+}
+.integrante .card h3{
+    font-size: .9rem;
+    color: #2c0202aa;
+}
+.integrante .card-botao{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.integrante .card-botao a{
+   text-decoration: none;
+    display: flex;
+  align-items: center;
+  background-color: rgba(195, 255, 183, 0.411);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.integrante .card-botao h1 {
+    color: rgb(102, 145, 67);
+}
+
+ /*illit*/
+
+body.illit{
+ background-image: url('imgsite/pag3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illit main{
+  align-items: center;
+  text-align: center;
+}
+.illit .container { 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+margin: 100px;
+} 
+
+.illit .card { 
+width: 100%; 
+max-width: 600px; 
+padding: 40px; 
+background-color: #d13636;
+ border-radius: 12px; 
+box-shadow: 08px 24px rgba(0, 0, 0, 0.15); 
+}
+
+.illit .card-botao{
+  font-size: 16px;
+  font-weight: bold;
+  padding: auto;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+  background-color: rgba(195, 255, 183, 0.411);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.illit .card-botao a{
+  text-decoration: none;
+  color: rgb(102, 145, 67);
+}
+
+ /*Mais sobre*/
+
+body.sobre{
+ background-image: url('imgsite/pag3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sobre main {
+  align-items: center;
+  text-align: center;
+}
+.sobre .container { 
+display: flex; 
+justify-content: center;  
+} 
+.sobre .card { 
+width: 100%; 
+max-width: 600px; 
+padding: 40px; 
+background-color: #fdf1da;
+ border-radius: 12px; 
+box-shadow: 08px 24px rgba(0, 0, 0, 0.15); 
+
+}
+.sobre .card-botao{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.sobre .card-botao a{
+   text-decoration: none;
+   color: rgb(102, 145, 67);
+    display: flex;
+  align-items: center;
+  background-color: rgba(195, 255, 183, 0.411);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ /*musicas*/
+
+body.musicas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('imgsite/pag3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.musicas .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.musicas .card {
+  display: flex;
+  align-items: center;
+  background-color: #fdf1da;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.musicas .card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+
+.musicas .card-texto h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+.musicas .card-texto p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+.musicas .card-botao{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.musicas .card-botao a{
+   text-decoration: none;
+   color: rgb(102, 145, 67);
+    display: flex;
+  align-items: center;
+  background-color: rgba(195, 255, 183, 0.411);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ /*albuns*/
+
+body.albuns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('imgsite/pag3.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.albuns h1 {
+  color: #709c49;
+}
+
+.albuns .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.albuns .card {
+  display: flex;
+  align-items: center;
+  background-color: #fdf7eb;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.albuns .cardtitulo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(207, 231, 185, 0.692);
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.albuns .card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+
+.albuns .card-texto h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+.albuns .card-texto p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+.albuns .card-botao{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.albuns .card-botao a{
+   text-decoration: none;
+   color: rgb(102, 145, 67);
+    display: flex;
+  align-items: center;
+  background-color: rgba(195, 255, 183, 0.411);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
