@@ -27,6 +27,38 @@ body.index{
     padding: 130px;
     justify-content: center;
 }
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
+}
 .index .card{
     background-color: rgb(243, 193, 214);
     width: 180px;
@@ -164,7 +196,55 @@ body.integrante{
 .integrante .card-botao h1 {
     color: rgb(102, 145, 67);
 }
-
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 1280px) {
+    body{
+        padding: 20px;
+      font-size: 18px;}
+      .container, main, header{
+      max-width: 100%;
+      width: 90%;
+      }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
+}
  /*illit*/
 
 body.illit{
@@ -185,7 +265,38 @@ justify-content: center;
 align-items: center; 
 margin: 100px;
 } 
-
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
+}
 .illit .card { 
 width: 100%; 
 max-width: 600px; 
@@ -229,7 +340,38 @@ body.sobre{
 .sobre .container { 
 display: flex; 
 justify-content: center;  
-} 
+} @media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
+}
 .sobre .card { 
 width: 100%; 
 max-width: 600px; 
@@ -282,6 +424,37 @@ body.musicas {
   gap: 20px;
   width: 100%;
   max-width: 600px;
+}@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
 }
 
 .musicas .card {
@@ -361,7 +534,38 @@ body.albuns{
   width: 100%;
   max-width: 600px;
 }
-
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 85%;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 22px;
+  }
+  .container {
+    max-width: 1500px;
+  }
+}
+@MEDIA (MAX-WIDTH: 480px) {
+    body{
+      font-size: 15px;}
+      .container{
+        flex-direction: column;
+      }
+}
 .albuns .card {
   display: flex;
   align-items: center;
